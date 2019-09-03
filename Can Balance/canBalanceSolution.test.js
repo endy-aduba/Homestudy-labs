@@ -34,5 +34,5 @@ test('for a simple case of positive and negative numbers', () => {
 });
 
 test('for a tricky case of decimal numbers', () => {
-  expect(canBalance([0.1, 0.2, 0.3])).toBe([2,1]);
+  expect(canBalance([0.1, 0.2, 0.3])).toEqual([2, 1]);
 });
